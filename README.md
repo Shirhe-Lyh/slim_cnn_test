@@ -6,7 +6,10 @@ Use tensorflow.contrib.slim to training a simple CNN classification model
 
 1.2 create a directory ./datasets/images/
 
-1.3 ```python3 generate_train_data.py```
+1.3 generate training images:
+```
+python3 generate_train_data.py
+```
 
 1.4 generate tfrecord file:
 ```
