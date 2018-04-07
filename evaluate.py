@@ -6,7 +6,6 @@ Created on Mon Apr  2 14:02:05 2018
 @author: shirhe-lyh
 """
 
-
 """Evaluate the trained CNN model.
 
 Example Usage:
