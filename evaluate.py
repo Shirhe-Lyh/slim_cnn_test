@@ -6,6 +6,18 @@ Created on Mon Apr  2 14:02:05 2018
 @author: shirhe-lyh
 """
 
+
+"""Evaluate the trained CNN model.
+
+Example Usage:
+
+---------------
+
+python3 evaluate.py \
+
+    --frozen_graph_path: Path to model frozen graph.
+"""
+
 import numpy as np
 import tensorflow as tf
 
