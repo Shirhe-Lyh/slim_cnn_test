@@ -18,7 +18,7 @@ python3 generate_tfrecord.py \
     --output_path ./datasets/train.record
 ```
         
-1.5 create a directory ./training
+1.5 create a directory ./training/
 
 1.6 train CNN model:
 ```
