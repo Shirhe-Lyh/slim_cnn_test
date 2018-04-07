@@ -11,8 +11,8 @@ Created on Fri Mar 30 19:27:44 2018
 Example Usage:
 ---------------
 python3 train.py \
-    --images_path: Path to the training images (directory).
-    --model_output_path: Path to model.ckpt.
+    --record_path: Path to training tfrecord file.
+    --logdir: Path to log directory.
 """
 
 import tensorflow as tf
