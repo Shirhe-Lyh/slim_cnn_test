@@ -34,7 +34,7 @@ tensorboard /home/.../training/
 
 1.8 export frozen inference graph:
 ```
-python3 export_inference_graph \
+python3 export_inference_graph.py \
     --input_type image_tensor \
     --trained_checkpoint_prefix ./training/model.ckpt \
     --output_directory path/to/exported_model_directory
