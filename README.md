@@ -36,7 +36,7 @@ tensorboard /home/.../training/
 ```
 python3 export_inference_graph.py \
     --input_type image_tensor \
-    --trained_checkpoint_prefix ./training/model.ckpt \
+    --trained_checkpoint_prefix ./training/model.ckpt-xxx(num_steps) \
     --output_directory path/to/exported_model_directory
 ```
     
