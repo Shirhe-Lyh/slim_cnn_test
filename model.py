@@ -186,7 +186,6 @@ class Model(BaseModel):
                 representing loss values.
         """
         logits = prediction_dict['logits']
-        logits = tf.nn.softmax(logits)
         slim.losses.sparse_softmax_cross_entropy(
             logits=logits, labels=groundtruth_lists)
         loss = slim.losses.get_total_loss()
