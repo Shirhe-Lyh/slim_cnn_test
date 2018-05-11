@@ -29,7 +29,7 @@ python3 train.py \
         
 1.7 visulize the loss curves:
 ```
-tensorboard /home/.../training/
+tensorboard --logdir /home/.../training/
 ```
 
 1.8 export frozen inference graph:
