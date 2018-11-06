@@ -1,6 +1,8 @@
 # slim_cnn_test
 Use tensorflow.contrib.slim to training a simple CNN classification model
 
+代码将更新
+
 ## Usage:
 1.1 git clone this project
 
